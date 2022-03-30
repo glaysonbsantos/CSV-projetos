@@ -1,8 +1,14 @@
 body {
-  background-image: url(images/mybg.png);
+  background-image: url(../images/mybg.png);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+header {
+  margin-bottom: 220px;
 }
 
 .offcanvas-title-color {
@@ -13,10 +19,57 @@ body {
   width: 300px !important;
 }
 
-.quadrado {
-  height: 200px;
-  width: 200px;
-  background-color: black;
+.big-img {
+  max-height: 800px;
+  min-width: 400px;
+  padding: 30px;
+}
+
+.white-txt {
+  color: white;
+}
+
+.txt-grey {
+  color: #212529;
+}
+
+.txt-begin {
+  padding-left: 30px;
+  font-size: 5rem;
+}
+
+.txt-our-course {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.col-center {
+  align-self: center;
+}
+
+.btn-begin {
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  margin-bottom: 70px;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #161615;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #0c0c0c;
+  border-radius: 20px;
+  border: 3px solid #141414;
 }
 
 /*# sourceMappingURL=style.css.map */

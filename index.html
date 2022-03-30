@@ -13,71 +13,114 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">C S V</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title offcanvas-title-color" id="offcanvasNavbarLabel">
-                            Conquiste Sua Vaga
-                        </h5>
-                        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Início</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Nosso Curso</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Mentores</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Investimento</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Depoimentos</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Mais Opções
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Plano de Aulas</a></li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Depoimentos</a>
-                                    </li>
-                                    <li>
-                                        <hr class="dropdown-divider" />
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Fale Conosco</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
+        <div class="container">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">C S V</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title offcanvas-title-color" id="offcanvasNavbarLabel">
+                                Conquiste Sua Vaga
+                            </h5>
+                            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Início</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#nosso-curso">Nosso Curso</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Mentores</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Investimento</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Depoimentos</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Mais Opções
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Plano de Aulas</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider" />
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Fale Conosco</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
+
     
-    <p class="display-3" style="margin-top: 50px;">
-        Em breve...
-    </p>
+    <div class="container-fluid">
+        <!-- inicio -->
+        <div class="inicio">
+            <div class="row white-txt">
+                <div class="col col-center">
+                    <div class="txt-begin">
+                        Você pode <span class="txt-grey"><strong>conquistar</strong></span> a vaga dos seus sonhos.
+                    </div>                
+                </div>
+    
+                <div class="col">
+                    <img class="img-fluid big-img img-begin" src="./images/inicio.png" alt="">
+                </div>
+            </div>
+    
+            <div class="btn-begin">
+                <a href="#nosso-curso">
+                    <button type="button" class="btn btn-lg btn-outline-light">Saiba Mais</button>
+                </a>
+            </div>
+        </div>
+
+        
+
+        <!-- nosso curso -->
+        <div id="nosso-curso">
+            <div class="white-txt">
+                <div class="txt-our-course">
+                    Nós da <strong>Conquiste Sua Vaga</strong> te colocamos no caminho certo.
+                </div>                
+            </div>
+    
+            <div class="row white-txt">
+                <div class="col">
+                    <img class="img-fluid big-img img-begin" src="./images/nosso-curso1.png" alt="">
+                </div>
+                <div class="col col-center">
+                    <div class="txt-begin">
+                        Em construção...
+                    </div>                
+                </div>
+            </div>
+        </div>
+
+    
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous">
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
 

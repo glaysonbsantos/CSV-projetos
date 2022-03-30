@@ -1,8 +1,14 @@
-body {
-    background-image: url(images/mybg.png);
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position:center;
+body { 
+    background-image: url(../images/mybg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+header {
+    margin-bottom: 220px;
 }
 
 .offcanvas-title-color {
@@ -13,8 +19,75 @@ body {
     width: 300px !important;
 }
 
-.quadrado {
-    height: 200px;
-    width: 200px;
-    background-color: black;
+
+//img-configs
+.big-img {
+    max-height: 800px;
+    min-width: 400px;
+    padding: 30px;
 }
+
+
+//txt-configs
+.white-txt {
+    color: white;
+}
+
+.txt-grey {
+    color: #212529;
+}
+
+.txt-begin {
+    padding-left: 30px;
+    font-size: 5rem;
+}
+
+.txt-our-course {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+//col-config
+.col-center {
+    align-self: center;
+}
+
+
+//btn-config
+.btn-begin {
+    display: flex;
+    justify-content: center;
+}
+
+
+//row-config
+.row {
+    margin-bottom:70px;
+    // background-color: rgba(255, 0, 0, 0.356);
+}
+
+
+//scroll
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(22, 22, 21);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(12, 12, 12);
+    border-radius: 20px;
+    border: 3px solid rgb(20, 20, 20);
+  }
+
+
+//media-query-config
+// @media (max-width: 321px) {
+//     .txt-begin {
+//       font-size: 2rem;
+//     }
+// }
