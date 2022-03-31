@@ -25,6 +25,11 @@ header {
   padding: 30px;
 }
 
+.p-profile {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
 .white-txt {
   color: white;
 }
@@ -41,12 +46,21 @@ header {
 .txt-our-course {
   font-size: 4rem;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.txt-our-course-sm {
+  font-size: 1.5rem;
 }
 
 .col-center {
   align-self: center;
+}
+
+.col-center-2 {
+  align-self: center;
+  justify-content: space-between;
 }
 
 .btn-begin {
@@ -56,6 +70,15 @@ header {
 
 .row {
   margin-bottom: 70px;
+}
+
+.row-space-evenly {
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.my-footer {
+  margin-bottom: 15px;
 }
 
 body::-webkit-scrollbar {
