@@ -54,6 +54,11 @@ header {
   font-size: 1.5rem;
 }
 
+.txt-investiment {
+  font-size: 2.5rem;
+  padding-left: 300px;
+}
+
 .col-center {
   align-self: center;
 }
