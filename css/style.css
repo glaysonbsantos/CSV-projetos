@@ -25,38 +25,46 @@ header {
   padding: 30px;
 }
 
-.p-profile {
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
 .white-txt {
   color: white;
 }
 
-.txt-grey {
-  color: #212529;
+.txt-orange {
+  color: #C97B28;
+}
+
+.txt-light-grey {
+  color: #b1b1b1;
 }
 
 .txt-begin {
   padding-left: 30px;
-  font-size: 5rem;
 }
 
 .txt-our-course {
-  font-size: 4rem;
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-.txt-our-course-sm {
-  font-size: 1.5rem;
+.txt-mentors {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.txt-investiment {
-  font-size: 2.5rem;
-  padding-left: 300px;
+.txt-profile {
+  font-weight: 300;
+}
+
+.txt-investment-title {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.txt-investment {
+  padding-left: 30px;
 }
 
 .col-center {
@@ -71,6 +79,12 @@ header {
 .btn-begin {
   display: flex;
   justify-content: center;
+}
+
+.btn-investment {
+  background-color: #C97B28 !important;
+  color: white !important;
+  border-color: #C97B28 !important;
 }
 
 .row {

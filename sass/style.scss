@@ -11,6 +11,8 @@ header {
     margin-bottom: 220px;
 }
 
+
+//offcanvas-configs
 .offcanvas-title-color {
     color: white;
 }
@@ -29,47 +31,50 @@ header {
 
 
 //txt-configs
-.p-profile {
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-
 .white-txt {
     color: white;
 }
 
-.txt-grey {
-    color: #212529;
+.txt-orange {
+    color: #C97B28;
+}
+
+.txt-light-grey {
+    color: #b1b1b1;
 }
 
 .txt-begin {
     padding-left: 30px;
-    font-size: 5rem;
 }
 
 .txt-our-course {
-    font-size: 4rem;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
-.txt-our-course-sm {
-    font-size: 1.5rem;
-    
+.txt-mentors {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.txt-investiment {
-    font-size: 2.5rem;
-    padding-left: 300px;;
+.txt-profile {
+    font-weight: 300;
+}
+
+.txt-investment-title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.txt-investment {
+    padding-left: 30px;
 }
 
 
-//col-config
-// .col {
-//     background-color: rgba(0, 0, 255, 0.37);
-// }
-
+//col-configs
 .col-center {
     align-self: center;
 }
@@ -86,11 +91,16 @@ header {
     justify-content: center;
 }
 
+.btn-investment {
+    background-color: #C97B28 !important;
+    color: white !important;
+    border-color: #C97B28 !important;
+}
+
 
 //row-config
 .row {
     margin-bottom:70px;
-    // background-color: rgba(255, 0, 0, 0.356);
 }
 
 .row-space-evenly {
@@ -103,6 +113,7 @@ header {
 .my-footer {
     margin-bottom: 15px;
 }
+
 
 //scroll
 body::-webkit-scrollbar {
@@ -118,11 +129,3 @@ body::-webkit-scrollbar {
     border-radius: 20px;
     border: 3px solid rgb(20, 20, 20);
   }
-
-
-//media-query-config
-// @media (max-width: 321px) {
-//     .txt-begin {
-//       font-size: 2rem;
-//     }
-// }
