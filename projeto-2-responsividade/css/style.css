@@ -24,4 +24,61 @@ mark {
   padding: 3rem;
 }
 
+@media (max-width: 1400px) {
+  .txt {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .h3, .lead {
+    font-size: large;
+  }
+}
+@media (max-width: 1200px) {
+  .h3, .lead {
+    font-size: medium;
+  }
+}
+@media (max-width: 990px) {
+  .video {
+    display: flex;
+    justify-content: center;
+  }
+
+  .txt {
+    padding-top: 45px;
+  }
+
+  .btn {
+    font-size: medium;
+  }
+}
+@media (max-width: 497px) {
+  .btn {
+    font-size: small;
+  }
+}
+@media (max-width: 432px) {
+  .h3 {
+    font-size: medium;
+  }
+
+  .btn {
+    font-size: x-small;
+  }
+}
+@media (max-width: 368px) {
+  .h3 {
+    font-size: small;
+  }
+
+  .lead {
+    font-size: small;
+  }
+
+  .btn {
+    font-size: xx-small;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
