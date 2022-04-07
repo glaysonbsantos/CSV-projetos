@@ -21,7 +21,7 @@ mark {
 }
 
 .CAT-btn {
-    padding: 3rem;
+    padding: 3rem 0rem;
 }
 
 @media (max-width: 1400px) {
@@ -58,6 +58,11 @@ mark {
     }
 }
 
+// @media (max-width: 575px) {
+
+
+// }
+
 @media (max-width: 497px) {
     .btn {
         font-size: small;
@@ -86,4 +91,9 @@ mark {
     .btn {
         font-size: xx-small;
     }
+
+    .CAT-btn {
+        padding: 3rem 0rem;
+    }
+
 }
