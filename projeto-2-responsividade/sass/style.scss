@@ -1,3 +1,13 @@
+body {
+    background-image: url(../images/background.png);
+    background-blend-mode: color;
+    background-color: #cececebb;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 p {
     margin-top: 0.8rem;
 }
@@ -12,8 +22,21 @@ mark {
     padding: 0em;
 }
 
+.navbar {
+    flex-wrap: wrap;
+}
+
+.my-logo {
+    width: auto;
+    height: 50px;
+}
+
+.collapse {
+    justify-content: end;
+}
+
 .site-start {
-    padding-top: 100px;
+    padding-top: 130px;
 }
 
 .lead {
@@ -22,6 +45,11 @@ mark {
 
 .CAT-btn {
     padding: 3rem 0rem;
+}
+
+.shadow-txt {
+    text-shadow: rgb(112, 112, 112) 0.1em 0.1em 0.2em;
+    font-size: 5em;
 }
 
 @media (max-width: 1400px) {
@@ -36,10 +64,15 @@ mark {
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
 
     .h3, .lead {
         font-size: medium;
+    }
+
+    .my-logo {
+        width: auto;
+        height: 40px;
     }
 }
 
@@ -56,16 +89,26 @@ mark {
     .btn {
         font-size: medium;
     }
+
+    .shadow-txt {
+        font-size: 3em;
+    }
 }
 
-// @media (max-width: 575px) {
-
-
-// }
+@media (max-width: 514px) {
+    .shadow-txt {
+        font-size: 2em;
+    }
+}
 
 @media (max-width: 497px) {
     .btn {
         font-size: small;
+    }
+
+    .my-logo {
+        width: auto;
+        height: 30px;
     }
 }
 
@@ -76,6 +119,12 @@ mark {
 
     .btn {
         font-size: x-small;
+    }
+}
+
+@media (max-width: 368px) {
+    .shadow-txt {
+        font-size: 1.5em;
     }
 }
 
